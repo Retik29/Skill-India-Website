@@ -1,0 +1,13 @@
+# Ignore node_modules and package files
+node_modules/
+package-lock.json
+
+# Ignore editor settings
+.vscode/
+
+# Ignore Tailwind config cache (if exists)
+.tailwind/
+
+# Ignore build files (if applicable)
+dist/
+build/

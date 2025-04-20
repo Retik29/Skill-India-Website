@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-section {
+    padding: 20px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn, .google-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #4b77be;
+    color: white;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+    margin-top: 10px;
+}
+
+.image-section {
+    flex: 1;
+    background-color: #e1e7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section p {
+    text-align: center;
+}
